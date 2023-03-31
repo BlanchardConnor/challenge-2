@@ -1,44 +1,72 @@
+/*home page*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:dimgray ;
+}
+
+li, a, button {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
 header {
-    position: fixed;
-    float: left;
-    width: 100%;
-    top: 0;
-    background-color:aliceblue;
-    color:black;
-    font-family: 'Exo 2', sans-serif;
-    padding: 1em;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    border-bottom: darkblue;
+    border-radius: 20px;
+    border-style: double;
   }
 
-.topnav a {
-    margin-right: 20px;
-    float: right;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-}
+  h1 {
+    color:aliceblue;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-right: auto;
+  }
 
-.topnav a:hover {
+  .nav-links {
+    list-style: none;
+    color: whitesmoke;
+  }
+
+  .nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .nav-links li a {
+    transition: all 0.3s ease 0s;
+  }
+
+  .nav-links li a:hover {
+    text-decoration: underline;
     color: blue;
-    text-decoration: underline;
-}
+    cursor: pointer;
+  }
 
-.topnav a.active {
-    background-color: #040404;
-    color: purple;
-    text-decoration: underline;
-}
+  button {
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,140,150,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
 
-.hero {
-    position: static;
-    height: 500px;
-    width: 100%;
-    margin: 20px;
-    flex-wrap: wrap;
-    text-align: center;
-    color: white;
-    }
+  button:hover {
+    background-color: rgba(0,136,169,0.8);
+  }
 
 .name {
     color: white;
@@ -49,4 +77,61 @@ header {
     font-weight: 800;
     font-size: 72px;
     text-align: center;
+    margin: auto;
+}
+
+.home-h2 {
+    bottom: 0;
+    left: 2%;
+    font-size: 15px;
+    text-decoration: underline;
+    position: absolute;
+}
+
+/* about page */
+
+.about-header {
+    
+    border-style: double;
+    border-radius: 1em;
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.h2 {
+    position: relative;
+    left: 0;
+    font-size: 15px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.body {
+    font-size: 17px;
+    line-height: 1.5;
+    text-indent: 20px;
+    max-width: 800px;
+}
+
+.about-footer a {
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.about-footer a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.about-footer a.active {
+    background-color: #040404;
+    color: purple;
+    text-decoration: underline;
 }
