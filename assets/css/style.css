@@ -1,15 +1,16 @@
 /*home page*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 * {
+    font-family: "Roboto", sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color:dimgray ;
+    background-color: rgb(49, 47, 47);
+    color: whitesmoke;
 }
 
 li, a, button {
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: whitesmoke;
@@ -21,6 +22,9 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
+    border-top: lightblue;
+    border-right:cornflowerblue;
+    border-left: cornflowerblue;
     border-bottom: darkblue;
     border-radius: 20px;
     border-style: double;
@@ -35,7 +39,6 @@ header {
 
   .nav-links {
     list-style: none;
-    color: whitesmoke;
   }
 
   .nav-links li {
@@ -68,70 +71,97 @@ header {
     background-color: rgba(0,136,169,0.8);
   }
 
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hero img {
+  height: auto;
+  width: 25%;
+}
+
 .name {
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: 800;
-    font-size: 72px;
-    text-align: center;
-    margin: auto;
+  font-size: larger;
+  margin-left: 100px;
 }
 
-.home-h2 {
-    bottom: 0;
-    left: 2%;
+.name .or {
+color: aquamarine;
+}
+
+.name .chard {
+color: aquamarine;
+}
+
+#about h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 20px 20px;
+}
+
+#about p {
+  margin-left: 20px;
+  text-decoration: none;
+  text-indent: 30px;
+  color:aquamarine;
+}
+
+.works {
+   margin: 20px 20px;
     font-size: 15px;
     text-decoration: underline;
-    position: absolute;
 }
 
-/* about page */
-
-.about-header {
-    
-    border-style: double;
-    border-radius: 1em;
-    background-color: aqua;
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
+.works img {
+  margin-top: 20px;
+ width: 30%;
+ height: auto;
 }
 
-.h2 {
-    position: relative;
-    left: 0;
-    font-size: 15px;
-    text-decoration: underline;
-    text-align: center;
+@media only screen and (max-width: 600px) {
+    .name {
+      text-align: center;
+      margin: auto;
+    }
+
+    .hero {
+      position: static;
+    }
+
+    header {
+      position: static;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-content: center;
+      margin: auto;
+      padding: 20px;
+    }
+
+    #about {
+      text-align: center;
+      position: static;
+      max-width: 570px;
+    }
+
+    .works {
+      position: static;
+      text-align: center;
+    }
 }
 
-.body {
-    font-size: 17px;
-    line-height: 1.5;
-    text-indent: 20px;
-    max-width: 800px;
+@media only screen and (min-wdith: 768px) {
+ 
 }
 
-.about-footer a {
-
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
-    text-align: center;
-    padding: 15px 20px;
-    text-decoration: none;
-    font-size: 20px;
+@media only screen and (max-width: 992px) {
+  
 }
 
-.about-footer a:hover {
-    color: blue;
-    text-decoration: underline;
+@media only screen and (min-width: 1200px) {
+  
 }
 
-.about-footer a.active {
-    background-color: #040404;
-    color: purple;
-    text-decoration: underline;
-}

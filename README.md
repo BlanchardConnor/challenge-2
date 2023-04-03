@@ -39,8 +39,7 @@ This is my current working version of a web development portfolio. It still need
 * Checked that all links included on both pages function properly
 
 ### Usage
-Once the link is deployed, the website can be viewed in a traditional desktop browser. Site not yet optimized for smaller screens than 768px.
-
+Once the link is deployed, the website can be viewed in a traditional desktop browser.
 - - - -
 <p align="center">
 <img src="">
@@ -51,8 +50,8 @@ Once the link is deployed, the website can be viewed in a traditional desktop br
 * [Deployed Website]
 * [Repository Link]
 
-[Deployed Website]:
-[Repository Link]:
+[Deployed Website]: 
+[Repository Link]: https://github.com/BlanchardConnor/challenge-2
 
 ### Credits
 Human collaborators throughout this challenge included the instructional personel and TA's within the Spring/Summer 2023 KU Coding Bootcamp.
