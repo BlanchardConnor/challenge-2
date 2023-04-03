@@ -42,7 +42,7 @@ This is my current working version of a web development portfolio. It still need
 Once the link is deployed, the website can be viewed in a traditional desktop browser.
 - - - -
 <p align="center">
-<img src="">
+<img src="../challenge-2/assets/images/Screenshot 2023-04-03 183835.png">
 </p>
 - - - -
 
@@ -50,7 +50,7 @@ Once the link is deployed, the website can be viewed in a traditional desktop br
 * [Deployed Website]
 * [Repository Link]
 
-[Deployed Website]: 
+[Deployed Website]: https://blanchardconnor.github.io/challenge-2/
 [Repository Link]: https://github.com/BlanchardConnor/challenge-2
 
 ### Credits
